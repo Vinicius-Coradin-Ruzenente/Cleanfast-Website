@@ -56,12 +56,27 @@
 
 @media screen and (max-width: 1024px) {
     .nossosClientes {
+        display: flex;
+        flex-direction: column;
         padding: 1rem;
+    }
+    .bannerNossosClientes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 0rem;
     }
     .bannerNossosClientes h2 {
         font-size: calc(1rem + 2.5vw);
-        padding-left: 0%;
+        padding-left: 0vw;
         padding-bottom: 4vw;
+    }
+    .box img{
+        color: transparent;
+        padding: 0;
+        margin: 0;
+        width: 5rem;
     }
 }
 </style>
