@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'EXO', Courier, monospace;
+}
+@font-face {
+  font-family: 'EXO';
+  src: url('./lib/images/Exo-VariableFont_wght.ttf');
+}
+html {
+  background-image: url("./lib/images/botanico-isometrica.webp");
+  background-repeat: no-repeat;
+  background-position: center -20vw ;    
+  background-color: rgb(0, 0, 0);
+  background-attachment: fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+}
+body {
+  height: 10vw;
+  width: 100%;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+h2 {    
+  font-size: calc(3rem + 2vw);
+  padding-left: 10vw;
+}
+p {
+  font-size: calc(1rem + 0.2vw);
+  padding-left: 10vw;
+}
+.fundo-verde {
+  background-color:rgb(35, 109, 27);
+  color: white;
+}
+.fundo-branco {
+  background-color: white;
+  color: rgb(35, 109, 27);
+}
+.fundo-preto {
+  background-color: rgba(0, 0, 0, 0.623);
+  color: white;
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+      background-position: center 0vw ;    
+  }
+  h2 {
+      font-size: calc(1rem + 4vw);
+  }
+  p {
+      font-size: calc(1rem + 1vw);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+      background-position: center 0vw ;    
+  }
+}
