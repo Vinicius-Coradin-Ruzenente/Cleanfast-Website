@@ -1,14 +1,15 @@
 <script lang="ts">
   import BarraNavegacao from './lib/BarraNavegacao.svelte';
-    import MissaoVisaoValores from './lib/MissaoVisaoValores.svelte';
-    import NossosClientes from './lib/NossosClientes.svelte';
-    import NossosServicos from './lib/NossosServicos.svelte';
-    import QuemSomos from './lib/QuemSomos.svelte';
-    import QuemSomosExpandido from './lib/QuemSomosExpandido.svelte';
-    import Rodape from './lib/Rodape.svelte';
+  import MissaoVisaoValores from './lib/MissaoVisaoValores.svelte';
+    import NossaEquipe from './lib/NossaEquipe.svelte';
+  import NossosClientes from './lib/NossosClientes.svelte';
+  import NossosServicos from './lib/NossosServicos.svelte';
+  import QuemSomos from './lib/QuemSomos.svelte';
+  import QuemSomosExpandido from './lib/QuemSomosExpandido.svelte';
+  import Rodape from './lib/Rodape.svelte';
 
 </script>
-<nav>
+<nav>  
   <BarraNavegacao />
 </nav>
 <main>
@@ -16,9 +17,10 @@
   <QuemSomosExpandido />
   <br>
   <MissaoVisaoValores />
-  <br>
+  <br>  
   <NossosServicos />
   <NossosClientes />
+  <NossaEquipe />
 </main>
 <footer>
   <Rodape />
