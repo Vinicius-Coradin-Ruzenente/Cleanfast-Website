@@ -23,20 +23,15 @@
 </section>
 <style>
 .nossosClientes {
-    height: 98vh;
+    height: 50vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
-    padding: 2rem;
     background-image: linear-gradient(rgba(40, 255, 58, 0.185), rgba(40, 255, 58, 0.322));
 }
-.bannerNossosClientes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-right: 1rem;
+.nossosClientes h2 {
+      font-size: calc(1rem + 2vw);
 }
 .tabelaClientes {
     display: flex;
@@ -64,13 +59,15 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        padding-right: 0rem;
+        flex-direction: row;
     }
     .bannerNossosClientes h2 {
         font-size: calc(1rem + 2.5vw);
         padding-left: 0vw;
         padding-bottom: 4vw;
+    }
+    .tabelaClientes {
+        width: 100vw;
     }
     .box img{
         color: transparent;

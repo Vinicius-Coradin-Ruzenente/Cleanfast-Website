@@ -22,6 +22,9 @@
     justify-content: space-evenly;
     width: 100vw;    
 }
+.nossaEquipe h2 {
+      font-size: calc(1rem + 2vw);
+}
 .bannerNossaEquipe {
     display: flex;
     flex-direction: column;
