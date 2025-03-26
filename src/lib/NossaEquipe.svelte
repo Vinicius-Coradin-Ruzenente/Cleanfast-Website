@@ -103,5 +103,8 @@
         width: 80vw;
         padding-bottom: 2vh;
     }
+    .equipe span {
+    display: none;
+}
 }
 </style>
