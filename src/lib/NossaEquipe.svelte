@@ -1,5 +1,6 @@
 <script>
     import equipe from "./images/foto-equipe.webp"
+    import { fade } from 'svelte/transition'
 </script>
 <section class="nossaEquipe fundo-preto" id="nossaEquipe">
     <div class="bannerNossaEquipe">
@@ -11,10 +12,36 @@
         </p>
     </div>
     <div class="equipe">
-        <img src={equipe} alt=''>
+        <img src={equipe} alt='' class="foto-equipe">
+        <span in:fade><img src="" alt="" class="xuao"></span>
+        
     </div>
 </section>
 <style>
+.equipe span {
+    width: 1em;
+    height: 2rem;
+    position: absolute;
+    top: 6.6vw;
+    left: 16vw;
+    opacity: 0;
+    -webkit-transition: .7s ease-in-out opacity;
+    -moz-transition: .7s ease-in-out opacity;
+    -o-transition: .7s ease-in-out opacity;
+    transition: .7s ease-in-out opacity;
+}
+.equipe span:hover {
+    background-image: url("./images/logos-clientes/xuan.webp");
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 50vw;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -40vh;
+    left: -10vw;
+}
 .nossaEquipe {
     display: flex;
     flex-direction: row;    
@@ -46,8 +73,9 @@
     align-items: center;
     padding: 1rem;
     margin: 0px;
+    position:relative;
 }
-.equipe img{
+.equipe .foto-equipe{
     display: flex;
     align-items: center;
     justify-content: center;
