@@ -34,7 +34,7 @@
 }
 .bannerQuemSomosExpandido .titulo {    
     padding-left: 5vw;
-    font-size: calc(1rem + 5.5vw);
+    font-size: calc(1rem + 5vw);
 }
 .bannerQuemSomosExpandido .texto{
     padding-left: 5vw;
