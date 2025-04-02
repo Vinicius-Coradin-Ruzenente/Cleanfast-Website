@@ -81,4 +81,12 @@
         display: none;
     }
 }
+@media screen and (min-width: 1920px) {
+    .bannerNossosServicos h2 {
+        font-size: calc(1rem + 2.5vw);
+    }
+    .bannerNossosServicos p {
+        font-size: calc(0.7rem + 1.2vw);
+    }
+}
 </style>

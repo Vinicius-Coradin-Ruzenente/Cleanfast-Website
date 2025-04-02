@@ -28,7 +28,9 @@
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
-    background-image: linear-gradient(rgba(40, 255, 58, 0.185), rgba(40, 255, 58, 0.322));
+    background-image: linear-gradient(rgba(40, 255, 58, 0.185), rgba(40, 255, 58, 0.322));    
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .nossosClientes h2 {
       font-size: calc(1rem + 2vw);
@@ -37,15 +39,13 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 45vw; 
+    width: 45vw;
 }
 .box {
     padding: 1rem;
 }
 .box img{
     color: transparent;
-    padding: 0;
-    margin: 0;
     width: 10rem;
 }
 

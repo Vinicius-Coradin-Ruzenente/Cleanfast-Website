@@ -1,7 +1,6 @@
 <script lang="ts">
   import BarraNavegacao from './lib/BarraNavegacao.svelte';
   import MissaoVisaoValores from './lib/MissaoVisaoValores.svelte';
-    import NossaEquipe from './lib/NossaEquipe.svelte';
   import NossosClientes from './lib/NossosClientes.svelte';
   import NossosServicos from './lib/NossosServicos.svelte';
   import QuemSomos from './lib/QuemSomos.svelte';
@@ -20,7 +19,6 @@
   <br>  
   <NossosServicos />
   <NossosClientes />
-  <NossaEquipe />
 </main>
 <footer>
   <Rodape />

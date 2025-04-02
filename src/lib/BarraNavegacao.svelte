@@ -11,7 +11,7 @@
         <li class="navItemValores"><a href="#missaoVisaoValores"><strong>Nossa Identidade</strong></a></li> <strong>|</strong>
         <li class="navItemVisao"><a href="#nossosServicos"><strong>Nossos Serviços</strong></a></li> <strong>|</strong>
         <li class="navItemVisao"><a href="#nossosClientes"><strong>Nossos Parceiros</strong></a></li> <strong>|</strong>
-        <li class="navItemContato"><a href="#contato"><strong>Contate-nós</strong></a></li>
+        <li class="navItemContato"><a href="#contato"><strong>Contate-nos</strong></a></li>
     </ul>
 </nav>
 <style>

@@ -1,7 +1,7 @@
 <script>
-    import horto from "./images/horto.webp"
+    import logoCleanfast from "./images/logo-remake.webp"
 </script>
-<section class="quemSomosExpandido fundo-branco" id="quemSomosExpandido">
+<section class="quemSomosExpandido fundo-preto" id="quemSomosExpandido">
     <div class="bannerQuemSomosExpandido">
         <h2 class="titulo"><strong>QUEM SOMOS</strong></h2>
         <p class="texto">
@@ -12,7 +12,7 @@
         </p>
     </div>
     <div class="folhaBg">
-        <img src={horto} alt=''>
+        <img src={logoCleanfast} alt=''>
     </div>
 </section>
 <style>
@@ -21,7 +21,8 @@
     flex-direction: row;    
     flex-wrap: wrap;
     width: 100vw;
-    height: 110vh;    
+    height: 110vh;
+    background-image: linear-gradient(rgba(40, 255, 58, 0.185), rgba(40, 255, 58, 0.322)); 
 }
 .bannerQuemSomosExpandido {
     display: flex;
@@ -33,17 +34,24 @@
 }
 .bannerQuemSomosExpandido .titulo {    
     padding-left: 5vw;
+    font-size: calc(1rem + 5.5vw);
 }
 .bannerQuemSomosExpandido .texto{
     padding-left: 5vw;
     padding-right: 2vw;
+    font-size: calc(0.5rem + 1.2vw);
 }
-.folhaBg img{
+.folhaBg {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 55vw;
-    height: 110vh;
+    width: auto;
+    height: 90vh;
+}
+.folhaBg img {
+    width: 40vw;
+    padding-left: 6vw;
+    padding-top: 14vh;
 }
 
 @media screen and (max-width: 1024px) {
