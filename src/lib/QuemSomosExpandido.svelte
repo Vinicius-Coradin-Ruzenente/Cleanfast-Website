@@ -53,7 +53,6 @@
     padding-left: 6vw;
     padding-top: 14vh;
 }
-
 @media screen and (max-width: 1024px) {
     .bannerQuemSomosExpandido {
         width: 90vw;
