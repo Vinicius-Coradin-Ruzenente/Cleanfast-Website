@@ -42,7 +42,7 @@
 a:visited {
     color: inherit
 }
-.navInformacoes img{    
+.navInformacoes img {    
     margin-left: 0.5em;
     margin-top: 0.3em;
     height: calc(3rem + 1.8vw)
@@ -63,7 +63,7 @@ a:visited {
         font-size: calc(1rem + 0.1vw);
         height: calc(1.4rem + 2vw);
     }
-    .navInformacoes img{
+    .navInformacoes img {
         height: calc(3rem + 0.7vw)
     }
 }

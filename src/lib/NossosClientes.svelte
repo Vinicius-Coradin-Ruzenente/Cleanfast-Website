@@ -44,7 +44,7 @@
 .box {
     padding: 1rem;
 }
-.box img{
+.box img {
     color: transparent;
     width: 10rem;
 }
@@ -69,7 +69,7 @@
     .tabelaClientes {
         width: 100vw;
     }
-    .box img{
+    .box img {
         color: transparent;
         padding: 0;
         margin: 0;

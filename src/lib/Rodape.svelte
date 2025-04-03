@@ -22,7 +22,7 @@
 .rodape .endereco {
     width: 55vw;
 }
-.rodape .contato{
+.rodape .contato {
     width: 45vw;
 }
 .rodape p {
@@ -40,7 +40,7 @@
         width: 30vw;
         font-size: calc(0.8rem + 0.3vw);
     }
-    .rodape .contato .email{
+    .rodape .contato .email {
         width: 30vw;
         font-size: calc(0.6rem + 0.1vw);
     }

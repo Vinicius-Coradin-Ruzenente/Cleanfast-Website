@@ -36,7 +36,7 @@
     padding-left: 5vw;
     font-size: calc(1rem + 5vw);
 }
-.bannerQuemSomosExpandido .texto{
+.bannerQuemSomosExpandido .texto {
     padding-left: 5vw;
     padding-right: 2vw;
     font-size: calc(0.5rem + 1.2vw);
@@ -58,7 +58,7 @@
         width: 90vw;
         flex-wrap: wrap;
     }
-    .bannerQuemSomosExpandido p{
+    .bannerQuemSomosExpandido p {
         width: 80vw;
         padding-left: 2rem;
         padding-right: 2rem;
