@@ -36,7 +36,7 @@
 .bannerNossaEquipe .titulo {    
     padding-left: 5vw;
 }
-.bannerNossaEquipe .texto{
+.bannerNossaEquipe .texto {
     padding-left: 5vw;
     padding-right: 2vw;
 }
@@ -48,7 +48,7 @@
     margin: 0px;
     position:relative;
 }
-.equipe .foto-equipe{
+.equipe .foto-equipe {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +69,7 @@
         padding-left: 0;
         font-size: calc(1rem + 2.5vw);
     }
-    .bannerNossaEquipe .texto{
+    .bannerNossaEquipe .texto {
         width: 80vw;
     }
     .equipe img {
